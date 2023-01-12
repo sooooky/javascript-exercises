@@ -1,6 +1,5 @@
 const getTheTitles = function(array) {
-    let titles = array.values(array)
-    return titles
+    return array.map((book)=>book.title)
 };
 
 // Do not edit below this line
